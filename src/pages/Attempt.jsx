@@ -77,7 +77,7 @@ function Attempt() {
 
   return (
     <div>
-      // <p>This is imported from Try Page</p>
+      <p>ATTEMPT ONE</p>
       <div>
         {/* // HINT HINT HINT */}
         {/* <div>{json[0]}</div> */}

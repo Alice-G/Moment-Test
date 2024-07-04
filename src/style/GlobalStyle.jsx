@@ -1,5 +1,3 @@
-// BLOCK BLOCK BLOCK this whole series is from folklore series
-
 import { createGlobalStyle } from "styled-components";
 import colors from "../style/colors";
 import fonts from "../style/fonts";
@@ -48,7 +46,7 @@ const StyledGlobalStyle = createGlobalStyle`
 
     body {
       font-family: Montserrat, Arial, sans-serif;
-      font-size: 18px; // TODO 
+      font-size: 18px; // DECIDE 
       background-color: ${colors.raisin_black};
       max-width: 1440px;
 

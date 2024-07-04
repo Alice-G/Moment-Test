@@ -30,12 +30,9 @@ const colors = {
   space_cadet: "rgba(41,44,69)",
   davys_gray: "rgba(94, 94, 97)",
   rich_black: "rgba(1, 2, 13)",
+  rich_black06: "rgba(1, 2, 13, 0.6)",
 
   // BLOCK below is LEG
-
-  // PAGE
-
-  // color: rgba(255, 255, 255, 0.8);
 
   primary: "#CAA5C0", //
   secondary: "#F6F6F6", //lightgrey
@@ -44,16 +41,6 @@ const colors = {
   dark: "#000",
 
   backgroundDark: "#7F7B82", // warm medium grey
-
-  /// POSSIBLE COLORS FOR SECTION TITLES
-
-  // color_sectiontitle: "rgba(211, 194, 173, 0.9)", // Frosted Almonds *
-  // color_sectiontitle: "rgba(220, 196, 148, 0.9)", // Chamomille Tea
-  // color_sectiontitle: "rgba(210, 171, 150, 0.9)", // Salt Water Taffy
-  // color_sectiontitle: "rgba(163, 132, 108, 0.8)", // Sandal *?
-  // color_sectiontitle: "rgba(185, 141, 116, 0.9)", // Presidio Plaza
-  // color_sectiontitle: "rgba(79, 91, 102, 0.9)", // Cigar Smoke
-  // color_sectiontitle: "rgba(77, 91, 51, 0.9)", // Grape Leaves
 };
 
 export default colors;

@@ -2,8 +2,9 @@ import styled from "styled-components";
 import colors from "../style/colors";
 import fonts from "../style/fonts";
 
-// // .. .. // // .. .. // //  .. .. STYLING
-const FooterContainer = styled.div``;
+const FooterContainer = styled.div`
+  margin: 10px 0 10px 0;
+`;
 
 const FooterText = styled.p`
   color: ${colors.color_black};

@@ -1,4 +1,3 @@
-// BLOCK FIXME LEG BUG OK HINT DEL TEST TODO ASK WEIRD TRYING XXXX DECIDE CHECK DEV VALIDATOR
 import styled from "styled-components";
 
 /////// ATTEMPT NUMBER TWO BASED ON https://hospodarets.com/fetch_in_action /////
@@ -83,7 +82,8 @@ function AttemptTWO() {
 
   return (
     <div>
-      <p>Try Page TWO import</p>
+      <p>ATTEMPT TWO</p>
+
       <div>And nothing else yet</div>
       <p>mapping of array</p>
       <ul>
