@@ -163,6 +163,7 @@ const MovieTestItem = styled.div`
   flex-direction: column;
   background-color: ${colors.color_primary01};
   border-radius: 25px;
+  padding: 3px;
   //   width: 390px;
 `;
 
@@ -171,6 +172,7 @@ const MovieTestItemSmallRow = styled.div`
   flex-direction: column;
   background-color: ${colors.color_primary01};
   border-radius: 25px;
+  padding: 3px;
   //   width: 390px;
 `;
 
@@ -242,8 +244,10 @@ const DetailsBtn = styled.button`
   width: 100px;
   line-height: 8px;
   margin: 0 auto;
-  margin-top: -5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-size: 12px;
+  border: none;
 `;
 
 const ModalHomeContainer = styled.div`
