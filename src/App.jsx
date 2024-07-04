@@ -1,34 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+// BLOCK FIXME LEG BUG OK HINT DEL TEST TODO ASK WEIRD TRYING XXXX DECIDE CHECK DEV VALIDATOR
+
+import { useEffect, useState } from "react";
+import styled from "styled-components";
+
+import Home from "../src/pages/home";
+
+import Attempt from "../src/pages/Attempt";
+import AttemptTWO from "../src/pages/AttemptTWO";
+
+// import ErrorPage from '../pages/notFound'
+// TODO use VALIDATOR
+
+// import StyledGlobalStyle from "./style/GlobalStyle"; // DECIDE Do I need this here?
+
+const HomeContainer = styled.div`
+  // border: 2px dotted yellow; // DEV DEL
+  // width: 100%; // FIXME
+`;
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+    <HomeContainer>
+      <Home />
+
+      <Attempt />
+      <AttemptTWO />
+    </HomeContainer>
+  );
 }
 
-export default App
+export default App;
+
+// BLOCK BLOCK BLOCK
